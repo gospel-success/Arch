@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+header{
+    display: flex;
+    flex: 1;
+    /* margin-left: 5px; */
+}
+.head-menu{
+    background-color: rgb(47, 47, 172);
+    height: 100vh;
+    width: 20vw;
+    position: relative;
+}
+.head-menu strong{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    color: #fff;
+
+}
+.head-menu p{
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: #fff;
+}
+.head-menu ul{
+    position: relative;
+    left: 45px;
+    top: 75px;
+    list-style: none;
+    line-height: 50px;
+}
+.head-menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+    
+}
+.head-menu a:active{
+    color: rgb(47, 47, 172);
+    background-color: #fff;
+    width: 20vw;
+}
+span{
+    color: rgb(47, 47, 172);
+    background-color: #fff;
+    padding: 3px 80px 3px 80px;
+    margin-left: -40px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    position: relative;
+    left: -150px;
+    top: 15px;
+}
+.article form label{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bold;
+}
+button{
+    position: relative;
+    bottom: 0px;
+    left: 170px;
+    top: 65px;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 45px;
+    border-color: blueviolet;
+    padding: 12px 25px;
+    
+}
